@@ -12,9 +12,24 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		4BE2ADB8271480C314166382 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
 		7699B88040F8A987B510C191 /* libPods-Riposte-RiposteTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-Riposte-RiposteTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
-		A3BA61AC231839A745CAC603 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB81A68108700A75B9A /* PrivacyInfo.xcprivacy */; };
+		C496F6A32D1A08D800648544 /* vacuum_cleaner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F69D2D1A08D800648544 /* vacuum_cleaner.mp3 */; };
+		C496F6A42D1A08D800648544 /* winter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6A22D1A08D800648544 /* winter.mp3 */; };
+		C496F6A52D1A08D800648544 /* hair_dryer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6972D1A08D800648544 /* hair_dryer.mp3 */; };
+		C496F6A62D1A08D800648544 /* rain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F69A2D1A08D800648544 /* rain.mp3 */; };
+		C496F6A72D1A08D800648544 /* river_flow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F69B2D1A08D800648544 /* river_flow.mp3 */; };
+		C496F6A82D1A08D800648544 /* waves.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6A02D1A08D800648544 /* waves.mp3 */; };
+		C496F6A92D1A08D800648544 /* hand_dryer.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6982D1A08D800648544 /* hand_dryer.mp3 */; };
+		C496F6AA2D1A08D800648544 /* washing_machine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F69E2D1A08D800648544 /* washing_machine.mp3 */; };
+		C496F6AB2D1A08D800648544 /* brown_noise.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6952D1A08D800648544 /* brown_noise.mp3 */; };
+		C496F6AC2D1A08D800648544 /* heater.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6992D1A08D800648544 /* heater.mp3 */; };
+		C496F6AD2D1A08D800648544 /* fireplace.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6962D1A08D800648544 /* fireplace.mp3 */; };
+		C496F6AE2D1A08D800648544 /* airplane.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6942D1A08D800648544 /* airplane.mp3 */; };
+		C496F6AF2D1A08D800648544 /* thunderstorm.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F69C2D1A08D800648544 /* thunderstorm.mp3 */; };
+		C496F6B02D1A08D800648544 /* wind.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F6A12D1A08D800648544 /* wind.mp3 */; };
+		C496F6B12D1A08D800648544 /* waterfall.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C496F69F2D1A08D800648544 /* waterfall.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +60,21 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-Riposte.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Riposte.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = Riposte/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-Riposte-RiposteTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Riposte-RiposteTests.release.xcconfig"; path = "Target Support Files/Pods-Riposte-RiposteTests/Pods-Riposte-RiposteTests.release.xcconfig"; sourceTree = "<group>"; };
+		C496F6942D1A08D800648544 /* airplane.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = airplane.mp3; sourceTree = "<group>"; };
+		C496F6952D1A08D800648544 /* brown_noise.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = brown_noise.mp3; sourceTree = "<group>"; };
+		C496F6962D1A08D800648544 /* fireplace.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = fireplace.mp3; sourceTree = "<group>"; };
+		C496F6972D1A08D800648544 /* hair_dryer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hair_dryer.mp3; sourceTree = "<group>"; };
+		C496F6982D1A08D800648544 /* hand_dryer.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = hand_dryer.mp3; sourceTree = "<group>"; };
+		C496F6992D1A08D800648544 /* heater.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = heater.mp3; sourceTree = "<group>"; };
+		C496F69A2D1A08D800648544 /* rain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rain.mp3; sourceTree = "<group>"; };
+		C496F69B2D1A08D800648544 /* river_flow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = river_flow.mp3; sourceTree = "<group>"; };
+		C496F69C2D1A08D800648544 /* thunderstorm.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = thunderstorm.mp3; sourceTree = "<group>"; };
+		C496F69D2D1A08D800648544 /* vacuum_cleaner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vacuum_cleaner.mp3; sourceTree = "<group>"; };
+		C496F69E2D1A08D800648544 /* washing_machine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = washing_machine.mp3; sourceTree = "<group>"; };
+		C496F69F2D1A08D800648544 /* waterfall.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waterfall.mp3; sourceTree = "<group>"; };
+		C496F6A02D1A08D800648544 /* waves.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = waves.mp3; sourceTree = "<group>"; };
+		C496F6A12D1A08D800648544 /* wind.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = wind.mp3; sourceTree = "<group>"; };
+		C496F6A22D1A08D800648544 /* winter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = winter.mp3; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -125,6 +155,21 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				C496F6942D1A08D800648544 /* airplane.mp3 */,
+				C496F6952D1A08D800648544 /* brown_noise.mp3 */,
+				C496F6962D1A08D800648544 /* fireplace.mp3 */,
+				C496F6972D1A08D800648544 /* hair_dryer.mp3 */,
+				C496F6982D1A08D800648544 /* hand_dryer.mp3 */,
+				C496F6992D1A08D800648544 /* heater.mp3 */,
+				C496F69A2D1A08D800648544 /* rain.mp3 */,
+				C496F69B2D1A08D800648544 /* river_flow.mp3 */,
+				C496F69C2D1A08D800648544 /* thunderstorm.mp3 */,
+				C496F69D2D1A08D800648544 /* vacuum_cleaner.mp3 */,
+				C496F69E2D1A08D800648544 /* washing_machine.mp3 */,
+				C496F69F2D1A08D800648544 /* waterfall.mp3 */,
+				C496F6A02D1A08D800648544 /* waves.mp3 */,
+				C496F6A12D1A08D800648544 /* wind.mp3 */,
+				C496F6A22D1A08D800648544 /* winter.mp3 */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -246,7 +291,22 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
-				A3BA61AC231839A745CAC603 /* PrivacyInfo.xcprivacy in Resources */,
+				4BE2ADB8271480C314166382 /* PrivacyInfo.xcprivacy in Resources */,
+				C496F6A32D1A08D800648544 /* vacuum_cleaner.mp3 in Resources */,
+				C496F6A42D1A08D800648544 /* winter.mp3 in Resources */,
+				C496F6A52D1A08D800648544 /* hair_dryer.mp3 in Resources */,
+				C496F6A62D1A08D800648544 /* rain.mp3 in Resources */,
+				C496F6A72D1A08D800648544 /* river_flow.mp3 in Resources */,
+				C496F6A82D1A08D800648544 /* waves.mp3 in Resources */,
+				C496F6A92D1A08D800648544 /* hand_dryer.mp3 in Resources */,
+				C496F6AA2D1A08D800648544 /* washing_machine.mp3 in Resources */,
+				C496F6AB2D1A08D800648544 /* brown_noise.mp3 in Resources */,
+				C496F6AC2D1A08D800648544 /* heater.mp3 in Resources */,
+				C496F6AD2D1A08D800648544 /* fireplace.mp3 in Resources */,
+				C496F6AE2D1A08D800648544 /* airplane.mp3 in Resources */,
+				C496F6AF2D1A08D800648544 /* thunderstorm.mp3 in Resources */,
+				C496F6B02D1A08D800648544 /* wind.mp3 in Resources */,
+				C496F6B12D1A08D800648544 /* waterfall.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -586,10 +646,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) DEBUG";
@@ -658,10 +715,7 @@
 					"-DFOLLY_CFG_NO_COROUTINES=1",
 					"-DFOLLY_HAVE_CLOCK_GETTIME=1",
 				);
-				OTHER_LDFLAGS = (
-					"$(inherited)",
-					" ",
-				);
+				OTHER_LDFLAGS = "$(inherited)  ";
 				REACT_NATIVE_PATH = "${PODS_ROOT}/../../node_modules/react-native";
 				SDKROOT = iphoneos;
 				USE_HERMES = true;
