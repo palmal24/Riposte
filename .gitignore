@@ -163,3 +163,7 @@ vendor/
 /node_modules/
 /ios/
 /android/
+.ios
+.android
+.bundle
+node_modules
