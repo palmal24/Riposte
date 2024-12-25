@@ -1,25 +1,23 @@
 import React, { useState } from 'react';
 import { Image, View, ScrollView, TouchableOpacity } from 'react-native';
 import Styles from '../styles/main_page';
-import PlaySound from './Sounds';
-import SoundPlayer from 'react-native-sound-player';
-import {NoiseObj, IconImageProps} from '../static/assets';
-
+import { PlaySound, StopSound } from './Sounds';
+import { NoiseObj, IconImageProps } from '../static/Assets';
 
 const IconImage: React.FC<IconImageProps> = ({ noiseObj }) => {
-  const [currentSound, setCurrentSound] = useState<string | null>(null);
+  const [currentSounds, setCurrentSounds] = useState<string[]>([]);
 
   const handleSoundPlay = (sound: string) => {
-    if (currentSound === sound) {
-      try {
-        SoundPlayer.stop();
-      } catch (e) {
-        console.log('Error stopping sound', e);
-      }
-      setCurrentSound(null);
-    } else {
+    if (currentSounds.includes(sound)) {
+      // Stop the sound if it's already playing
+      StopSound(sound);
+      setCurrentSounds((prev) => prev.filter((s) => s !== sound));
+    } else if (currentSounds.length < 3) {
+      // Play a new sound if less than 3 are playing
       PlaySound(sound);
-      setCurrentSound(sound);
+      setCurrentSounds((prev) => [...prev, sound]);
+    } else {
+      console.log('Maximum of 3 sounds can be played at the same time.');
     }
   };
 

@@ -32,63 +32,30 @@ import washingMachineSound from '../assets/sounds/menu/washing_machine.mp3';
 import brownNoiseSound from '../assets/sounds/menu/brown_noise.mp3';
 import rainSound from '../assets/sounds/menu/rain.mp3';
 
-
-const img1 = Image.resolveAssetSource(hairDryer).uri;
-const img2 = Image.resolveAssetSource(handDryer).uri;
-const img3 = Image.resolveAssetSource(heater).uri;
-const img4 = Image.resolveAssetSource(riverFlow).uri;
-const img5 = Image.resolveAssetSource(thunderstorm).uri;
-const img6 = Image.resolveAssetSource(vacuumCleaner).uri;
-const img7 = Image.resolveAssetSource(waves).uri;
-const img8 = Image.resolveAssetSource(airplane).uri;
-const img9 = Image.resolveAssetSource(fireplace).uri;
-const img10 = Image.resolveAssetSource(winter).uri;
-const img11 = Image.resolveAssetSource(waterfall).uri;
-const img12 = Image.resolveAssetSource(wind).uri;
-const img13 = Image.resolveAssetSource(washingMachine).uri;
-const img14 = Image.resolveAssetSource(brownNoise).uri;
-const img15 = Image.resolveAssetSource(rain).uri;
-
-const sound1 = Image.resolveAssetSource(hairDryerSound).uri;
-const sound2 = Image.resolveAssetSource(handDryerSound).uri;
-const sound3 = Image.resolveAssetSource(heaterSound).uri;
-const sound4 = Image.resolveAssetSource(riverFlowSound).uri;
-const sound5 = Image.resolveAssetSource(thunderstormSound).uri;
-const sound6 = Image.resolveAssetSource(vacuumCleanerSound).uri;
-const sound7 = Image.resolveAssetSource(wavesSound).uri;
-const sound8 = Image.resolveAssetSource(airplaneSound).uri;
-const sound9 = Image.resolveAssetSource(fireplaceSound).uri;
-const sound10 = Image.resolveAssetSource(winterSound).uri;
-const sound11 = Image.resolveAssetSource(waterfallSound).uri;
-const sound12 = Image.resolveAssetSource(windSound).uri;
-const sound13 = Image.resolveAssetSource(washingMachineSound).uri;
-const sound14 = Image.resolveAssetSource(brownNoiseSound).uri;
-const sound15 = Image.resolveAssetSource(rainSound).uri;
-
 interface Noise {
-    id: number;
-    imgUri: string;
-    sound: string;
+  id: number;
+  imgUri: string;
+  sound: string;
 }
 
 export const NoiseObj: Noise[] = [
-    { id: 0, imgUri: img1, sound: sound1 },
-    { id: 1, imgUri: img2, sound: sound2 },
-    { id: 2, imgUri: img3, sound: sound3 },
-    { id: 3, imgUri: img4, sound: sound4 },
-    { id: 4, imgUri: img5, sound: sound5 },
-    { id: 5, imgUri: img6, sound: sound6 },
-    { id: 6, imgUri: img7, sound: sound7 },
-    { id: 7, imgUri: img8, sound: sound8 },
-    { id: 8, imgUri: img9, sound: sound9 },
-    { id: 9, imgUri: img10, sound: sound10},
-    { id: 10, imgUri: img11, sound: sound11 },
-    { id: 11, imgUri: img12, sound: sound12 },
-    { id: 12, imgUri: img13, sound: sound13 },
-    { id: 13, imgUri: img14, sound: sound14 },
-    { id: 14, imgUri: img15, sound: sound15 },
+  { id: 0, imgUri: Image.resolveAssetSource(hairDryer).uri, sound: hairDryerSound },
+  { id: 1, imgUri: Image.resolveAssetSource(handDryer).uri, sound: handDryerSound },
+  { id: 2, imgUri: Image.resolveAssetSource(heater).uri, sound: heaterSound },
+  { id: 3, imgUri: Image.resolveAssetSource(riverFlow).uri, sound: riverFlowSound },
+  { id: 4, imgUri: Image.resolveAssetSource(thunderstorm).uri, sound: thunderstormSound },
+  { id: 5, imgUri: Image.resolveAssetSource(vacuumCleaner).uri, sound: vacuumCleanerSound },
+  { id: 6, imgUri: Image.resolveAssetSource(waves).uri, sound: wavesSound },
+  { id: 7, imgUri: Image.resolveAssetSource(airplane).uri, sound: airplaneSound },
+  { id: 8, imgUri: Image.resolveAssetSource(fireplace).uri, sound: fireplaceSound },
+  { id: 9, imgUri: Image.resolveAssetSource(winter).uri, sound: winterSound },
+  { id: 10, imgUri: Image.resolveAssetSource(waterfall).uri, sound: waterfallSound },
+  { id: 11, imgUri: Image.resolveAssetSource(wind).uri, sound: windSound },
+  { id: 12, imgUri: Image.resolveAssetSource(washingMachine).uri, sound: washingMachineSound },
+  { id: 13, imgUri: Image.resolveAssetSource(brownNoise).uri, sound: brownNoiseSound },
+  { id: 14, imgUri: Image.resolveAssetSource(rain).uri, sound: rainSound },
 ];
 
 export interface IconImageProps {
-    noiseObj: Noise[];
+  noiseObj: Noise[];
 }
