@@ -15,6 +15,8 @@ import waterfall from '../assets/images/menu/waterfall.png';
 import waves from '../assets/images/menu/waves.png';
 import wind from '../assets/images/menu/wind.png';
 import winter from '../assets/images/menu/winter.png';
+import ads from '../assets/images/menu/ads.png';
+import stop from '../assets/images/menu/stop.png';
 
 import hairDryerSound from '../assets/sounds/menu/hair_dryer.mp3';
 import handDryerSound from '../assets/sounds/menu/hand_dryer.mp3';
@@ -54,6 +56,8 @@ export const NoiseObj: Noise[] = [
   { id: 12, imgUri: Image.resolveAssetSource(washingMachine).uri, sound: washingMachineSound },
   { id: 13, imgUri: Image.resolveAssetSource(brownNoise).uri, sound: brownNoiseSound },
   { id: 14, imgUri: Image.resolveAssetSource(rain).uri, sound: rainSound },
+  { id: 15, imgUri: Image.resolveAssetSource(ads).uri, sound: 'ads' },
+  { id: 16, imgUri: Image.resolveAssetSource(stop).uri, sound: 'stop'},
 ];
 
 export interface IconImageProps {

@@ -6,6 +6,16 @@ const soundInstances: { [key: string]: Sound } = {};
 
 const PlaySound = (soundFile: any) => {
   try {
+    if (soundFile === 'stop') {
+      // Stop all playing sound instances
+      Object.keys(soundInstances).forEach((key) => {
+        soundInstances[key].stop(() => {
+          console.log(`Stopped sound: ${key}`);
+        });
+      });
+      return;
+    }
+
     if (!soundFile) {
       console.error('Sound file is required.');
       return;

@@ -2,15 +2,26 @@ import React from 'react';
 import {
   View,
   Text,
+  StyleSheet,
 } from 'react-native';
-import Styles from '../styles/main_page';
 
 const Ads = () => {
     return (
-        <View style={Styles.ads}>
-            <Text style={Styles.adsText}>PLACEHOLDER</Text>
+        <View style={styles.ads}>
+            <Text style={styles.adsText}>PLACEHOLDER</Text>
         </View>
     );
 };
+
+const styles = StyleSheet.create({
+    ads: {
+        justifyContent: 'center',
+        },
+    adsText: {
+        fontSize: 40,
+        textAlign: 'center',
+        backgroundColor: 'blue',
+        },
+});
 
 export default Ads;
